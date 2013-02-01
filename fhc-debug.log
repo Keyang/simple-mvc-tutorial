@@ -3,5 +3,19 @@ info using fhc@0.7.21-180
 info using node@v0.6.8
 silly config file /Users/kxiang/.fhcrc
 silly config file /usr/local/etc/fhcrc
-ERR! fhc initlocal <app-id>
+silly packages Packages list: ["default"]
+ERR! Error: running local requires application.js and package.json in your cloud code
+ERR!     at /usr/local/lib/node_modules/fh-fhc/lib/local.js:249:27
+ERR!     at /usr/local/lib/node_modules/fh-fhc/node_modules/async/lib/async.js:486:21
+ERR!     at /usr/local/lib/node_modules/fh-fhc/node_modules/async/lib/async.js:185:13
+ERR!     at /usr/local/lib/node_modules/fh-fhc/node_modules/async/lib/async.js:108:13
+ERR!     at /usr/local/lib/node_modules/fh-fhc/node_modules/async/lib/async.js:119:25
+ERR!     at /usr/local/lib/node_modules/fh-fhc/node_modules/async/lib/async.js:187:17
+ERR!     at /usr/local/lib/node_modules/fh-fhc/node_modules/async/lib/async.js:491:34
+ERR!     at /usr/local/lib/node_modules/fh-fhc/lib/local.js:223:16
+ERR!     at /usr/local/lib/node_modules/fh-fhc/node_modules/async/lib/async.js:486:21
+ERR!     at /usr/local/lib/node_modules/fh-fhc/node_modules/async/lib/async.js:185:13
+ERR! 
+ERR! System Darwin 11.4.2
+ERR! command "node" "/usr/local/bin/fhc" "local"
 verbose exit [ 1, true ]

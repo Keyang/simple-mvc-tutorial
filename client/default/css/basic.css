@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.mypage{
+    display: none;
+    padding:10px;
+}
+.mypage.currentPage{
+    display: block;
+}
