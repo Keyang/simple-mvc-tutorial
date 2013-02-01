@@ -1,0 +1,7 @@
+info it worked if it ends with ok
+info using fhc@0.7.21-180
+info using node@v0.6.8
+silly config file /Users/kxiang/.fhcrc
+silly config file /usr/local/etc/fhcrc
+ERR! fhc initlocal <app-id>
+verbose exit [ 1, true ]
